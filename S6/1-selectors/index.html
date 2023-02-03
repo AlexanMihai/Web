@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+            * {
+                background-color: #CDCDCD;
+            }
+            div {
+                padding: 1em;
+            }
+            #container {
+                background-color: #364156;
+                border: 3px solid black;
+                color: #214E34
+            }
+
+            #container div {
+                background-color: #DFF8EB;
+            }
+            #container div:first-child {
+                background-color: red;
+            }
+            #container .deleted {
+                background-color: lightgray;
+                color: gray;
+            }
+            #container div:last-child {
+                background-color: lightcoral;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Anunturi</h2>
+        <div id="container">
+            <h3>Auto</h3>
+            <div>
+                Vand Golf IV
+            </div>
+            <div>
+                Cumpar BMW Germania
+            </div>
+            <div class="deleted">
+                Un anunt
+            </div>
+            <div>
+                Alt anunt
+            </div>
+        </div>
+    </body>
+</html>

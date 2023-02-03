@@ -1,0 +1,19 @@
+.btn {
+    background-color: azure;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+input:required {
+    background-color: red;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+p::first-line {
+    font-weight: bold;
+}
