@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    padding: 32px;
+    color: white;
+}
+
+.container {
+    background-color: #c21322;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    text-align: center;
+}
+
+.column-item {
+    background-color: rgba(255,255,255,0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+    width: 80%;
+    transition: all 0.2s ease-in-out;
+}
+
+.column-item:hover {
+    background-color: white;
+    color: #c21322;
+    cursor: pointer;
+}
